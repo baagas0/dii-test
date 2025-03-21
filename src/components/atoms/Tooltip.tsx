@@ -30,7 +30,7 @@ function Tooltip(props: TooltipProps): React.JSX.Element {
         <div className="flex w-fit flex-col items-center justify-center shadow-lg">
           <div id='arrowposition' className={`h-2 w-4 clip-bottom bg-gray-800 absolute ${arrowPositionClasses[position]}`}></div>
           <div className="rounded bg-gray-800 p-2 text-center text-xs text-white flex justify-end">
-            {message} {position}
+            {message}
           </div>
         </div>
       </div>
